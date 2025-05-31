@@ -76,7 +76,7 @@ public static void main(String[] args) {
 ### Data Validation Rules
 1. CSV must have proper header: `start,end,percentage,type`
 2. Time ranges must be continuous (end time of previous entry = start time of next)
-3. Total percentage must sum to 1.0 ± 0.01
+3. Total percentage must sum to 1.0 ± 0.0001
 4. All time values must be in HH:mm format
 5. Percentage values must be non-negative
 6. Type field cannot be empty
@@ -86,7 +86,7 @@ public static void main(String[] args) {
 VolumeProfile/
 ├── src/
 │   ├── main/java/com/benchmark/
-│   │   └── VolumeProfileHandler.java  # Core implementation
+│   │   └── VolumeProfile.java  # Core implementation
 │   └── resources/                     # Sample data files
 ├── pom.xml                            # Maven configuration
 └── README.md                          # This documentation
