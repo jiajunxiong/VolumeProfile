@@ -69,7 +69,7 @@ public static void main(String[] args) {
 ### VolumeProfileHandler
 | Method | Description |
 |--------|-------------|
-| `loadFromCSV(String filePath)` | Loads and validates volume profile data from CSV file |
+| `loadFromCSV(String filePath)` | Loads and validates volume profile data from CSV file(0700_HK.csv), if failed will load from market default CSV file(HK.csv), if both not available, will generate TWAP profile instead |
 | `getCumulativeVolume(LocalTime start, LocalTime end)` | Calculates cumulative volume between two time points |
 | `getNormalizedTargetPercent(LocalTime time, LocalTime periodStart, LocalTime periodEnd)` | Calculates normalized target percentage for a specific time within a period |
 
