@@ -30,10 +30,10 @@ mvn clean install
 The CSV file must have the following header and format:
 ```
 start,end,percentage,type
-09:30,10:00,0.15,Regular
-10:00,10:30,0.25,Regular
-10:30,11:00,0.35,Regular
-11:00,11:30,0.25,Regular
+09:30,10:00,0.15,CTS
+10:00,10:30,0.25,CTS
+10:30,11:00,0.35,CTS
+11:00,11:30,0.25,CTS
 ```
 
 ### Example Usage
